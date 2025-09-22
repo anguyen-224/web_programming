@@ -1,0 +1,108 @@
+* {
+	text-family: sans-serif;
+}
+
+.bg {
+	background-image: url("Cherry_Blossoms_Background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	color: rgb(208, 130, 232);
+	background: rgb(168, 206, 255);
+	font-weight: Bold;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table td{
+	text-align: center;
+}
+
+table th {
+	color: yellow;
+	font-weight: Bold;
+	font-size: 15pt;
+}
+
+ul, ol {
+	background: green;
+	color: white;
+}
+
+/*Change color of link when visited and hovered*/
+a:hover {
+	color: orange;
+}
+
+a:visited {
+	color: rgb(102, 255, 255);
+}
+
+/*Span tags so certain words are red & bold*/
+
+.Georgia-State-University {
+    color: red;
+    font-weight: bold;
+}
+
+.Computer-Science {
+    color: red;
+    font-weight: bold;
+}
+
+.Youtube {
+    color: red;
+    font-weight: bold;
+}
+
+.Games {
+    color: red;
+    font-weight: bold;
+}
+
+#quote {
+	background: pink;
+	color: blue;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#name {
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.photo {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Code from W3Schools for Zebra-striped table*/
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+section, nav {
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#assignments {
+	background: rgb(168, 206, 255);
+}
